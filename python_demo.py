@@ -50,7 +50,7 @@
 
 # This will be covered in much more detail in the seminar, but here are some Python basics:
 	# You seperate statements by putting them on different lines
-	# Use a colon (:) to denote the start of an indented block of code
+	# Use a colon (:) to denote that indented code should follow
 	# Use indentations to control flow (if statements, for loops, etc.)
 	# Keep things as simple and elegenat as possible
 
