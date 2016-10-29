@@ -40,8 +40,9 @@ def get_all_closing_prices(folder):
 
 
 def get_max_corrs(returns):
-    """fuck you"""
-    
+    """takes DataFrame of stock_price_returns, and returns
+    DataFrame of, for each stock price: stock with max correlation,
+    + correlation between the two"""
     corr_mat = returns.corr()
     max_corrs = []
     
