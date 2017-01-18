@@ -23,9 +23,9 @@ The bulk of our time was spent working through a variety of technciques for data
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*pandas_more* takes things a little further, introducing heirarchical columns
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*correlation_fun* - we take a look at some of the stocks whose returns were most correlated to other S&P 500 members' returns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*correlation_fun* - we look at stocks whose returns were most correlated to other S&P 500 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;members' returns
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables* is the culmination of our data wrangling efforts. We compile daily and monthly tables with more sophistacted columns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables* is the culmination of our data wrangling efforts. We compile daily and monthly tables with more &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sophistacted columns
 
 Additionally, in **code/**, there lies:
 	
