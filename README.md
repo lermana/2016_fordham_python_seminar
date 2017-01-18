@@ -17,23 +17,23 @@ The bulk of our time was spent working through a variety of technciques for data
 
 **code/** is where the bulk of the code lives. 
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The module *stock_data.py* contains functions used for aggregating the 500 csv's into a workable format
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stock_data.py*: functions used for aggregating the 500 csv's into a workable format
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *pandas_basics* notebook provides a first look at DataFrames and columnar access
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*pandas_basics*: provides a first look at DataFrames and columnar access
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*pandas_more* takes things a little further, introducing heirarchical columns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*pandas_more*: takes things a little further, introducing heirarchical columns
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*correlation_fun* - we look at stocks whose returns were most correlated to other S&P 500 members' returns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*correlation_fun*: we look at stocks whose returns were most correlated to other S&P 500 members' returns
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables* is the culmination of our data wrangling efforts. We compile daily and monthly tables with more sophistacted columns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables*: the culmination of our data wrangling. We compile daily and monthly tables with sophistacted columns
 
 Additionally, in **code/**, there lies:
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *basic_examples* Jupyter notebook, which provides some very intro-to-Python style activities
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*basic_examples*: provides some very intro-to-Python style activities
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The **additional_exercises/** folder: on-the-fly exercises from class, with & without solutions
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**additional_exercises/**: on-the-fly exercises from class, with & without solutions
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The *python_demo* module: a less polished & heavily commented version of stock_data, sent out pre-seminar as a first look into Python
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*python_demo*: a less polished & heavily commented *stock_data*, sent out pre-seminar as a first look into Python
 
 Some of the code we worked with during the seminar is not currently here. In the case of the feature_building module & notebook, this was replaced with *build_tables*. The modeling notebook has also been taken down. That is because it was quite frankly not very good. I am in the process of replacing this with a few new examples, having been chipping away at all the updates I've had floating around in my head since the seminar. This will go up sooner rather than later. I just want to make sure it is at least somewhat soild before posting. 
 
