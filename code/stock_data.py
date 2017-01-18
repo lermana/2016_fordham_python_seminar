@@ -15,7 +15,7 @@ def get_closing_prices(file):
     """returns DataFrame; columns 'date' & 'ticker'; ticker contains closing prices"""
     ticker = get_ticker(file)
     df = pandas.read_csv('../stock_csvs/' + file, 
-                         names=['date', 'time', 'open', 'high', 'loww', 'close', 'volume'])
+                         names=['date', 'time', 'open', 'high', 'low_price', 'close', 'volume'])
     
     df['date'] = df['date'].apply(lambda date: datetime.datetime.strptime(str(date), '%Y%m%d'))
 
