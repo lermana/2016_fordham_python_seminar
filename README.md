@@ -16,16 +16,25 @@ The bulk of our time was spent working through a variety of technciques for data
 **output/** contains output from some of the programs run. 
 
 **code/** is where the bulk of the code lives. 
-	The module stock_data.py contains functions used for aggregating the 500 csv's into a workable format
-	The pandas_basics notebook provides a first look at DataFrames and columnar access
-	pandas_more takes things a little further, introducing heirarchical columns
-	correlation_fun is where things start to get a little more interesting. We take a look at some of the stocks whose returns were most correlated to others'
-	build_tables is really the culmination of our data wrangling efforts - we compile both daily and monthly tables that provide a deeper look into a stock's price measures
+	
+	-The module stock_data.py contains functions used for aggregating the 500 csv's into a workable format
+	
+	-The pandas_basics notebook provides a first look at DataFrames and columnar access
+	
+	-pandas_more takes things a little further, introducing heirarchical columns
+	
+	-correlation_fun is where things start to get a little more interesting. We take a look at some of the stocks whose returns were most correlated to 
+	others'
+	
+	-build_tables is really the culmination of our data wrangling efforts - we compile both daily and monthly tables that provide a deeper look into a stock's price measures
 
 Additionally, in code/, there lies:
-	The basic_examples Jupyter notebook, which provides some very intro-to-Python style activities
-	The additional_exercises folder, which contains on-the-fly exercises from class, some with solutions and others without
-	And lastly, the python_demo module - a less polished & heavily commented version of stock_data, sent out pre-seminar as glance into what one can do with Python
+	
+	-The basic_examples Jupyter notebook, which provides some very intro-to-Python style activities
+	
+	-The additional_exercises folder, which contains on-the-fly exercises from class, some with solutions and others without
+	
+	-And lastly, the python_demo module - a less polished & heavily commented version of stock_data, sent out pre-seminar as glance into what one can do with Python
 
 Some of the code we worked with during the seminar is not currently here. In the case of the feature_building module & notebook, this was replaced with build_tables. The modeling notebook has also been taken down. That is because it was quite frankly not very good. I am in the process of replacing this with a few new examples, having been chipping away at all the updates I've had floating around in my head since the seminar. This will go up sooner rather than later. I just want to make sure it is at least somewhat soild before posting. 
 
