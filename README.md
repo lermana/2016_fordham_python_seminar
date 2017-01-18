@@ -11,7 +11,7 @@ The bulk of our time was spent working through a variety of technciques for data
 
 **ppts/** contains the powerpoint presentations delivered in class. Though these presentations generally did a pretty mediocre job of predicting what would take place in subsequent classes, they did stay pretty close to whatever was covered in their respective sessions.
 
-**text_example/** contains a Jupyter notebook that walks through a practice example - searching for names in a text file using built-in Python data structures. This has a lot of notes around what is being done and why - a great place to start for someone interested in learning or refreshing on some of the Python fundamentals. 
+**text_example/** contains a Jupyter notebook that walks through a practice example: searching for names in a text file using built-in Python data structures. This has a lot of notes around what is being done and why - a great place to start for someone interested in learning or refreshing on some of the Python fundamentals. 
 
 **output/** contains output from some of the programs run. 
 
@@ -23,12 +23,11 @@ The bulk of our time was spent working through a variety of technciques for data
 	
 	-pandas_more takes things a little further, introducing heirarchical columns
 	
-	-correlation_fun is where things start to get a little more interesting. We take a look at some of the stocks whose returns were most correlated to 
-	others'
+	-correlation_fun - we take a look at some of the stocks whose returns were most correlated to others'
 	
-	-build_tables is really the culmination of our data wrangling efforts - we compile both daily and monthly tables that provide a deeper look into a stock's price measures
+	-build_tables is the culmination of our data wrangling efforts. We compile daily and monthly tables with more sophistacted columns
 
-Additionally, in code/, there lies:
+Additionally, in **code/**, there lies:
 	
 	-The basic_examples Jupyter notebook, which provides some very intro-to-Python style activities
 	
