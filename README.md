@@ -15,7 +15,7 @@ The bulk of our time was spent working through a variety of technciques for data
 
 **output/** contains output from some of the programs run. 
 
-**code/** is where the bulk of the code lives. 
+**code/** is where the bulk of the code lives:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stock_data.py*: functions used for aggregating the 500 csv's into a workable format
 	
