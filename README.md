@@ -27,7 +27,7 @@ The bulk of our time was spent working through a variety of technciques for data
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables.ipynb*: the culmination of our data wrangling. We compile daily & monthly tables with derived columns
 
-Additionally, in **code/**, there lies:
+Additionally, in **code/**, there lie:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*basic_examples.ipynb*: provides some very intro-to-Python style activities
 	
