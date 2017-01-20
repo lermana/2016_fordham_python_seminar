@@ -41,11 +41,11 @@ A few final details:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This code was written using Python 3.5, with Pandas as a heavy dependency. Some of this code will run in 2.7, (in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fact most will) but there will be some issues.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In an addition to the coming modeling examples, I will be posting some code around how to handle missing data, as we barely touched on this in the seminar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In an addition to the coming modeling examples, I will be posting some code around how to handle missing data, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as we barely touched on this in the seminar
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will also be posting some code that provides a more solid *introduction to joining and grouping*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have not yet had a second set of eyes on a lot of these updates. That too is being worked on. In the meantime if you see anything out of line please let me know 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have not yet had a second set of eyes on a lot of these updates. That too is being worked on. In the meantime if &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you see anything out of line please let me know 
 
 Thank you again for your participation in the seminar! 
 
