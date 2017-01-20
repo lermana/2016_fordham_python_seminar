@@ -35,7 +35,7 @@ Additionally, in **code/**, there lies:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*python_demo*: a less polished & heavily commented *stock_data*, sent out pre-seminar as a first look into Python
 
-Some of the code we worked with during the seminar is not currently here. In the case of the feature_building module & notebook, this was replaced with *build_tables*. The modeling notebook has also been taken down. That is because it was quite frankly not very good. I am in the process of replacing this with a few new examples, having been chipping away at all the updates I've had floating around in my head since the seminar. This will go up sooner rather than later. I just want to make sure it is at least somewhat soild before posting. 
+Some of the code we worked with during the seminar is not currently here. In the case of the feature_building module & notebook, this was replaced with *build_tables*. The modeling notebook has also been taken down. That is because it was, quite frankly, not very good. I am in the process of replacing it with a few new examples, having recently been chipping away at all the updates I've had floating around in my head since the seminar. These will go up sooner rather than later. I want to make sure the examples are soild before I post them. 
 
 A few final details:
 
