@@ -38,8 +38,14 @@ Additionally, in **code/**, there lies:
 Some of the code we worked with during the seminar is not currently here. In the case of the feature_building module & notebook, this was replaced with *build_tables*. The modeling notebook has also been taken down. That is because it was quite frankly not very good. I am in the process of replacing this with a few new examples, having been chipping away at all the updates I've had floating around in my head since the seminar. This will go up sooner rather than later. I just want to make sure it is at least somewhat soild before posting. 
 
 A few final details:
-- This code was all written using Python 3.5 with Pandas as a heavy dependency. Some of this code will run in 2.7, (in fact most will) but there will be some issues
-- I have not yet had a second set of eyes on a lot of these updates. That too is being worked on. In the meantime if you see anything out of line please let me know 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This code was all written using Python 3.5 with Pandas as a heavy dependency. Some of this code will run in 2.7, (in fact most will) but there will be some issues
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In an addition to the modeling examples, I would like to post some code around how to handle missing data, as we did not cover this in the seminar
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I would also like to post some more code that provides a sort of *introduction to joining and grouping*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have not yet had a second set of eyes on a lot of these updates. That too is being worked on. In the meantime if you see anything out of line please let me know 
 
 Thank you again for your participation in the seminar! 
 
