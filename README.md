@@ -25,7 +25,7 @@ The bulk of our time was spent working through a variety of technciques for data
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*correlation_fun.ipynb*: we look at stocks whose returns were most correlated to other S&P 500 members' returns
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables.ipynb*: the culmination of our data wrangling. We compile daily and monthly tables with derived columns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables.ipynb*: the culmination of our data wrangling. We compile daily & monthly tables with derived columns
 
 Additionally, in **code/**, there lies:
 	
