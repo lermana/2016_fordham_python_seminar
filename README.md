@@ -18,7 +18,7 @@ This is a work in progress that I will continue to update (more detail on that b
 
 **stock_csvs/** contains 500 csv files, each with daily stock price data for one of the 500 stocks in the S&P 500, for the time period ranging Jan 1998 - August 2013. Presumably, this data corresponds to the 500 stocks in the S&P 500 as of August 9th, 2013, where this data set ends. This was a free data set obtained from https://quantquote.com/historical-stock-data.
 
-**ppts/** contains the powerpoint presentations delivered in class. Though these presentations generally did a pretty mediocre job of predicting what would take place in subsequent classes, they did stay pretty close to whatever was covered in their respective sessions.
+**ppts/** contains the powerpoint presentations delivered in class. Though these presentations generally did a pretty mediocre job of predicting what would take place in subsequent classes, they did stay pretty close to whatever was covered in their respective sessions. I plan on eventually moving all of the powerpoint notes into Jupyter notebooks. 
 
 **text_example/** contains a Jupyter notebook that walks through a practice example: searching for names in a text file using built-in Python data structures. This notebook contains detailed notes around what is being done and why - a great place to start for someone interested in learning or refreshing some Python fundamentals. 
 
@@ -58,7 +58,7 @@ While much of the work we were doing might full under the umbrella of *data anal
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how daily stock price returns relate to monthly returns
 
-I might sum up these missing analysis pieces by saying that we did a whole lot of *doing* and not a whole lot of *understanding*, which is fine given the fact that this was **a)** at heart a Python seminar and not a data analysis seminar and **b)** a very time-constrained seminar. And with that in mind, I thought it best to hold off on posting any modeling work that accompanied by a real exploratory analysis the data. I am working through producing these materials but at this point in time they are not quite finished. 
+I might sum up these missing analysis pieces by saying that we did a whole lot of *doing* and not a whole lot of *understanding*, which is fine given the fact that this was **a)** at heart a Python seminar and not a data analysis seminar and **b)** a very time-constrained seminar. And with that in mind, I thought it best to hold off on posting any modeling work that is not accompanied by a real exploratory analysis the data. I am working through producing these materials but at this point in time they are not quite finished. 
 
 Additionally, while a textual overview of the relational data concepts of *joins* and *group by's* is covered in the ppts directory, I think it would be useful to have a dedicated notebook covering these topics in here. 
 
