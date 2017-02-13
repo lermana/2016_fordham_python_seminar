@@ -42,35 +42,39 @@ Additionally, in **code/**:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**additional_exercises/**: on-the-fly exercises from class, with & without solutions
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*python_demo.py*: a less polished & heavily commented *stock_data*, sent out pre-seminar as a first look at what Python can do
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*python_demo.py*: a less polished & heavily commented *stock_data*; a first look at what Python can do
 
 
 ### What this repository does not contain
 
 #### Data analysis & predictive modeling 
-While much of the work we were doing might full under the umbrella of *data analysis* (and to be fair I would consider the correlation exercise a, at the very least, useful piece of analysis), we did not get into *real* exploratory data analysis, which would include things like:
+While much of the work we were doing might full under the umbrella of *data analysis* (and to be fair I would consider the correlation exercise a useful piece of analysis), we did not get into *real* exploratory data analysis, which would include things like:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- handling missing data
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how stock price returns are distributed
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how daily stock price returns correlate to volume and intraday movement
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how daily stock price returns relate to monthly returns
 
-I might sum these missing analysis pieces up by saying that we did a whole lot of *doing* and not a whole lot of *understanding*, which is fine given the fact that this was a) at heart a Python seminar and not a data analysis seminar and b) a seminar that we had very limited time to complete. And with that in mind, I thought it best to hold off on posting any modeling work that comes without at least some real understanding of the data. I am working through producing these materials, but at this point in time, they are not quite finished. 
+I might sum up these missing analysis pieces by saying that we did a whole lot of *doing* and not a whole lot of *understanding*, which is fine given the fact that this was **a)** at heart a Python seminar and not a data analysis seminar and **b)** a very time-constrained seminar. And with that in mind, I thought it best to hold off on posting any modeling work that accompanied by a real exploratory analysis the data. I am working through producing these materials but at this point in time they are not quite finished. 
 
-Additionally, while a textual overview of the relational data concepts *joining* and *grouping* is covered in the ppts directory, I think it would be useful to have a dedicated notebook covering these topics in here. 
+Additionally, while a textual overview of the relational data concepts of *joins* and *group by's* is covered in the ppts directory, I think it would be useful to have a dedicated notebook covering these topics in here. 
 
 #### Advanced, non-Pandas Python
 Our focus was the Pandas library, as it is highly relevant to the QF and GF coursework. We touched on basic Python too, as that's necessary for being able to properly use Pandas. That said, there is *a lot* of other Python functionality that we didn't cover (or at least didn't thoroughly cover), including:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- generators
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- the *collections* library
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- the *NumPy* library
 
 I would like to at some point in the near future provide you with at least some kind of reference for using these. 
 
 #### Computer science
-We did not really get into any computer science, so to speak - this was much more a look at how to get started using this language for things that relate to Finance. But understanding computer science - e.g. object-oriented programming, data structures & algorithms - is phenomenally interesting, and it will make you much more proficient as a programmer, even if you are just hacking quick solutions together. If you enjoyed what we worked on I would highly recommend you take the time to investigate Python through a more computer- science-tinted lens. interactivepython.org would be a great place to start. 
-
+We did not really get into any computer science, so to speak - this was a look at how to get started using this language. But understanding computer science - e.g. object-oriented programming, data structures & algorithms - is phenomenally interesting, and it will make you much more proficient as a programmer, even if you are just hacking quick solutions together. If you enjoyed what we worked on I would highly recommend you take the time to investigate Python through a more computer- science-tinted lens. interactivepython.org would be a great place to start. 
 
 Thank you again for your participation in the seminar! 
 
