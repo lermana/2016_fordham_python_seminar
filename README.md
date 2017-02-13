@@ -1,17 +1,26 @@
-This is the repo for a Python seminar that was taught to students of a few different programs at the *Fordham Graduate School of Business* in October of 2016. 
+### Overview
 
-The bulk of our time was spent working through a variety of technciques for data maniuplation in Pandas and the materials here reflect that. Our coursework was broken up over four sessions in roughly the following way:
+This is the repository for a Python seminar that was taught to students of a few different programs at the *Fordham Graduate School of Business* in October of 2016. 
+
+The bulk of our time was spent working through a variety of technciques for data maniuplation in *Pandas*. Our coursework was broken up over four sessions in roughly the following way:
 
 	1) Python fundamentals
 	2) Python practice & intro to Pandas
 	3) Deeper into Pandas
 	4) Heavier data engineering in Pandas, with some light modeling at the end
+    
+This code was written using Python 3.5, with Pandas as a heavy dependency. 
+Much of this code will run in 2.7, but there will be some issues.
+
+This is a work in progress that I will continue to update (more detail on that below).
+    
+### Repository contents
 
 **stock_csvs/** contains 500 csv files, each with daily stock price data for one of the 500 stocks in the S&P 500, for the time period ranging Jan 1998 - August 2013. Presumably, this data corresponds to the 500 stocks in the S&P 500 as of August 9th, 2013, where this data set ends. This was a free data set obtained from https://quantquote.com/historical-stock-data.
 
 **ppts/** contains the powerpoint presentations delivered in class. Though these presentations generally did a pretty mediocre job of predicting what would take place in subsequent classes, they did stay pretty close to whatever was covered in their respective sessions.
 
-**text_example/** contains a Jupyter notebook that walks through a practice example: searching for names in a text file using built-in Python data structures. This has a lot of notes around what is being done and why - a great place to start for someone interested in learning or refreshing some Python fundamentals. 
+**text_example/** contains a Jupyter notebook that walks through a practice example: searching for names in a text file using built-in Python data structures. This notebook contains detailed notes around what is being done and why - a great place to start for someone interested in learning or refreshing some Python fundamentals. 
 
 **output/** contains output from some of the programs run. 
 
@@ -25,7 +34,7 @@ The bulk of our time was spent working through a variety of technciques for data
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*correlation_fun.ipynb*: we look at stocks whose returns were most correlated to other S&P 500 members' returns
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_tables.ipynb*: the culmination of our data wrangling. We compile daily & monthly tables with derived columns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*build_table.ipynb*: we compile a daily table with derived columns
 
 Additionally, in **code/**:
 	
@@ -33,19 +42,35 @@ Additionally, in **code/**:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**additional_exercises/**: on-the-fly exercises from class, with & without solutions
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*python_demo.py*: a less polished & heavily commented *stock_data*, sent out pre-seminar as a first look at Python
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*python_demo.py*: a less polished & heavily commented *stock_data*, sent out pre-seminar as a first look at what Python can do
 
-Some of the code we worked with during the seminar is no longer here. In the case of the feature_building module & notebook, this was replaced with *build_tables*. The modeling notebook has also been taken down. That is because it was, quite frankly, not very good. I am in the process of replacing it with a few new examples, having recently been chipping away at all the updates I've had floating around in my head since the seminar. These will go up sooner rather than later. I want to make sure the examples are soild before I post them. 
 
-A few final details:
+### What this repository does not contain
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This code was written using Python 3.5, with Pandas as a heavy dependency. Some of this code will run in 2.7, (in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fact most will) but there will be some issues.
+#### Data analysis & predictive modeling 
+While much of the work we were doing might full under the umbrella of *data analysis* (and to be fair I would consider the correlation exercise a, at the very least, useful piece of analysis), we did not get into *real* exploratory data analysis, which would include things like:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In addition to the coming modeling examples, I will be posting some code around how to handle missing data, as &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;we barely touched on this in the seminar.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- handling missing data
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how stock price returns are distributed
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how daily stock price returns correlate to volume and intraday movement
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- understanding how daily stock price returns relate to monthly returns
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will also be posting some code that provides a more solid *introduction to joining and grouping*.
+I might sum these missing analysis pieces up by saying that we did a whole lot of *doing* and not a whole lot of *understanding*, which is fine given the fact that this was a) at heart a Python seminar and not a data analysis seminar and b) a seminar that we had very limited time to complete. And with that in mind, I thought it best to hold off on posting any modeling work that comes without at least some real understanding of the data. I am working through producing these materials, but at this point in time, they are not quite finished. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have not yet had a second set of eyes on a lot of these updates. That too is being worked on. In the meantime if &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you see anything out of line please let me know.
+Additionally, while a textual overview of the relational data concepts *joining* and *grouping* is covered in the ppts directory, I think it would be useful to have a dedicated notebook covering these topics in here. 
+
+#### Advanced, non-Pandas Python
+Our focus was the Pandas library, as it is highly relevant to the QF and GF coursework. We touched on basic Python too, as that's necessary for being able to properly use Pandas. That said, there is *a lot* of other Python functionality that we didn't cover (or at least didn't thoroughly cover), including:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- generators
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- the *collections* library
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- the *NumPy* library
+
+I would like to at some point in the near future provide you with at least some kind of reference for using these. 
+
+#### Computer science
+We did not really get into any computer science, so to speak - this was much more a look at how to get started using this language for things that relate to Finance. But understanding computer science - e.g. object-oriented programming, data structures & algorithms - is phenomenally interesting, and it will make you much more proficient as a programmer, even if you are just hacking quick solutions together. If you enjoyed what we worked on I would highly recommend you take the time to investigate Python through a more computer- science-tinted lens. interactivepython.org would be a great place to start. 
+
 
 Thank you again for your participation in the seminar! 
 
